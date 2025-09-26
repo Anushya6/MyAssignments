@@ -36,9 +36,10 @@ public class Salesforce extends BasicClass  {
 		//click save
 		driver.findElement(By.xpath("//button[text()='Save']")).click();
 		//print the alert msg
-		String text = driver.findElement(By.xpath("//h2[text()='We hit a snag.']")).getText();
+		String text = driver.findElement(By.xpath("//div[@data-name='Name']")).getText();
 		System.out.println(text);
 	}
     
   
 }
+
