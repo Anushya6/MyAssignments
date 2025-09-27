@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Salesforce" verbose="2">
+  <test thread-count="5" name="Module1">
+	<parameter name="url" value="https://login.salesforce.com/"></parameter>
+    <parameter name="username" value="anushyap1698522@agentforce.com"></parameter>
+	<parameter name="password" value="Chocolate*7"></parameter>
+    <classes>
+      <class name="testngPractise.LegalEntitiesDynamic"/>
+    </classes>
+  </test> <!-- Module1 -->
+</suite> <!-- Salesforce -->
